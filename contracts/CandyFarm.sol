@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./CandyToken.sol";
 
-contract TokenFarm {
+contract CandyFarm {
     // userrAddress => stakingBalance
     mapping(address => uint256) public stakingBalance;
 
